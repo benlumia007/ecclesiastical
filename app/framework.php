@@ -26,6 +26,12 @@ $ecclesiastical->provider( Benlumia007\Backdrop\Template\Manager\Provider::class
 $ecclesiastical->provider( Benlumia007\Backdrop\Template\View\Provider::class );
 
 /**
+ * Register Service Provider with the Framework
+ */
+$ecclesiastical->provider( Ecclesiastical\Menu\Provider::class );
+$ecclesiastical->provider( Ecclesiastical\Sidebar\Provider::class );
+
+/**
  * Boot the Framework
  */
 $ecclesiastical->boot();

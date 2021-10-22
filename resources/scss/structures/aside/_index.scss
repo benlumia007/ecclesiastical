@@ -9,12 +9,9 @@
 /// @link   https://getbenonit.com/themes/initiator
 ////
 
-// -----------------------------------------------------------------------------
-// Import settings.
-// -----------------------------------------------------------------------------
-//
-// Settings handle the configuration and variables.
-
-@import 'containers/index';
-@import 'content/index';
-@import 'aside/index';
+.left-sidebar {
+    .widget-area {
+        float: left;
+        width: 26.278659611992945%;
+    }
+}

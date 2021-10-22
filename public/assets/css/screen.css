@@ -72,6 +72,9 @@ h6 {
   max-width: 70.875rem;
   padding: 1.125rem;
 }
+.site-container .site-content {
+  margin: 0.813rem 0;
+}
 
 .left-sidebar .content-area {
   float: right;
@@ -103,6 +106,10 @@ h6 {
 .content-area .post {
   margin-bottom: 3rem;
 }
+.content-area .post.sticky {
+  background: #eeeeee;
+  padding: 1.125rem;
+}
 .content-area .post .entry-header {
   text-align: center;
 }
@@ -112,6 +119,16 @@ h6 {
 }
 .content-area .post .entry-header .entry-title a {
   border-bottom: none;
+}
+.content-area .post .entry-metadata {
+  font-size: 0.875rem;
+}
+.content-area .post .entry-metadata .fa-user {
+  padding-right: 0.3rem;
+}
+.content-area .post .entry-metadata .fa-calendar-alt,
+.content-area .post .entry-metadata .fa-comment {
+  padding: 0 0.3rem 0 0.4rem;
 }
 
 .widget-area .search-form:before,
@@ -558,6 +575,16 @@ a {
   color: #000080;
   border-bottom: 0.125rem solid #000080;
   text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 1.125rem;
+  margin: 0;
+  padding: 0;
+}
+.grid.has-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .site-container:before, .site-container:after,

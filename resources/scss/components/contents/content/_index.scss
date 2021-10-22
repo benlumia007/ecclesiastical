@@ -10,6 +10,11 @@
 .content-area {
     .post {
         margin-bottom: 3rem;
+
+        &.sticky {
+            background: #eeeeee;
+            padding: 1.125rem;
+        }
         
         .entry-header {
             text-align: center;
@@ -21,6 +26,19 @@
                 a { 
                     border-bottom: none;
                 }
+            }
+        }
+
+        .entry-metadata {
+            font-size: 0.875rem;
+
+            .fa-user {
+                padding-right: 0.3rem;
+            }
+
+            .fa-calendar-alt,
+            .fa-comment {
+                padding: 0 0.3rem 0 0.4rem;
             }
         }
     }

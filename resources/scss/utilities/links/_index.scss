@@ -13,3 +13,14 @@ a {
     border-bottom: 0.125rem solid #000080;
     text-decoration: none;
 }
+
+.grid {
+    display: grid;
+    grid-gap: 1.125rem;
+    margin: 0;
+    padding: 0;
+
+    &.has-3-columns {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

@@ -57,9 +57,7 @@ Not Available At the Moment
 Resources
 ================================================================================================
 Screenshot
-Copyright and Licensed as CC0 
-By Jeff Sheldon (https://unsplash.com/@ugmonk)
-https://hd.unsplash.com/photo-1415226181422-279a51ca056e
+Header Image - CCO (Benjamin Lu)
 
 Font Awesome by Dave Gandy - http://fontawesome.io
 Font Awesome licensed under SIL OFL 1.1 Â· Code licensed under MIT License

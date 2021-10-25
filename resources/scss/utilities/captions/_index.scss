@@ -7,18 +7,20 @@
 // @author    Benjamin Lu ( https://getbenonit.com )
 //
 
-.site-container,
-.site-content,
-.site-main,
-.content-area,
-.post-navigation,
-.posts-navigation,
-.entry-content,
-.comment-meta {
-    &:before,
-    &:after {
-        clear: both;
-        content: "";
-        display: table;
+.gallery-caption,
+.wp-caption {
+    background: #eeeeee;
+    padding: 0.5rem;
+    text-align: center;
+
+    .wp-caption-text {
+        .portfolio-title {
+            margin: 0;
+            padding: 0;
+
+            a {
+                border-bottom: none;
+            }
+        }
     }
 }

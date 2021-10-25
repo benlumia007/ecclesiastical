@@ -17,7 +17,7 @@ class Component extends SidebarContract {
         return array(
             'primary' => [
                 'name' => esc_html__( 'Primary Sidebar', 'ecclesiastical' ),
-                'desc' => esc_html__( 'test', 'eEcclesiastical' ),
+                'desc' => esc_html__( 'test', 'ecclesiastical' ),
             ],
             'secondary' => [
                 'name' => esc_html__( 'Secondary Sidebar', 'ecclesiastical' ),

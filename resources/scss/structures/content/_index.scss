@@ -6,12 +6,42 @@
 ///
 /// @group  Styles
 /// @author Benjamin Lu <benlumia007@gmail.com>
-/// @link   https://getbenonit.com/themes/initiator
+/// @link   https://getbenonit.com/themes/ecclesiastical
 ////
 
 .left-sidebar {
     .content-area {
-        float: right;
-        width: 70.54673721340388%;
+        float: none;
+        width: 100%;
+    }
+}
+
+.right-sidebar {
+    .content-area {
+        float: none;
+        width: 100%;
+    }
+}
+
+.no-sidebar {
+    .content-area {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and ( min-width: 73.125rem ) {
+    .left-sidebar {
+        .content-area {
+            float: right;
+            width: 70.54673721340388%;
+        }
+    }
+
+    .right-sidebar {
+        .content-area {
+            float: left;
+            width: 70.54673721340388%;
+        }
     }
 }

@@ -1,5 +1,5 @@
 //
-// ecclesiastical ( settings/_index.scss )
+// ecclesiastical ( utilities/_index.scss )
 //
 // @package   ecclesiastical
 // @copyright Copyright (C) 2019-2021. Benjamin Lu
@@ -7,5 +7,13 @@
 // @author    Benjamin Lu ( https://getbenonit.com )
 //
 
-@import 'dimensions/index';
-@import 'fonts/index';
+figure {
+    margin: 0;
+}
+
+figure,
+img {
+    height: auto;
+    max-width: 100%;
+}
+

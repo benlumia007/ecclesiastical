@@ -28,7 +28,7 @@ function ecclesiastical_compat_message() {
 
 		return sprintf(
 			// Translators: 1 is the required WordPress version and 2 is the user's current version.
-			__( 'Exhale requires at least WordPress version %1$s. You are running version %2$s. Please upgrade and try again.', 'exhale' ),
+			__( 'ecclesiastical requires at least WordPress version %1$s. You are running version %2$s. Please upgrade and try again.', 'ecclesiastical' ),
 			'4.9',
 			$GLOBALS['wp_version']
 		);
@@ -37,7 +37,7 @@ function ecclesiastical_compat_message() {
 
 		return sprintf(
 			// Translators: 1 is the required PHP version and 2 is the user's current version.
-			__( 'Exhale requires at least PHP version %1$s. You are running version %2$s. Please upgrade and try again.', 'exhale' ),
+			__( 'ecclesiastical requires at least PHP version %1$s. You are running version %2$s. Please upgrade and try again.', 'ecclesiastical' ),
 			'5.6',
 			PHP_VERSION
 		);

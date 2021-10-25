@@ -1,15 +1,26 @@
 //
-// Initiator ( components/_index.scss )
+// ecclesiastical ( components/_index.scss )
 //
-// @package   Initiator
+// @package   ecclesiastical
 // @copyright Copyright (C) 2019-2021. Benjamin Lu
 // @license   GNU General Public License v2 or later ( https://www.gnu.org/licenses/gpl-2.0.html )
 // @author    Benjamin Lu ( https://getbenonit.com )
 //
 
 .content-area {
+    .archive-header {
+        padding: 1.125rem;
+        text-align: center;
+        
+        .archive-title {
+            margin: 0;
+            padding: 0;
+        }
+    }
+    
     .post {
-        margin-bottom: 3rem;
+        margin-bottom: 1.125rem;
+        padding: 1.125rem 0;
 
         &.sticky {
             background: #eeeeee;
@@ -39,6 +50,19 @@
             .fa-calendar-alt,
             .fa-comment {
                 padding: 0 0.3rem 0 0.4rem;
+            }
+        }
+    }
+
+    .page {
+        padding: 1.125rem 0;
+
+        .entry-header {
+            text-align: center;
+
+            .entry-title {
+                margin: 0;
+                padding: 0;
             }
         }
     }

@@ -1,12 +1,12 @@
 <?php
 /**
- * Silver Quantum ( archive.php )
+ * Default archive template
  *
- * @package   Silver Quantum
+ * @package   Ecclesiastical
  * @author    Benjamin Lu ( benlumia007@gmail.com )
- * @copyright Copyright (C) 2014-2021. Benjamin Lu
+ * @copyright Copyright (C) 2016-2021. Benjamin Lu
  * @license   https://www.gnu.org/licenses/gpl-2.0.html
- * @link      https://luthemes.com/portfolio/silver-quantum
+ * @link      https://luthemes.com/portfolio/ecclesiastical
  */
 ?>
 <?php $engine = Benlumia007\Backdrop\App::resolve( 'view/engine' ); ?>
@@ -17,7 +17,7 @@
 				<?php if ( ! is_front_page() ) { ?>
 					<header class="archive-header">
 						<?php the_archive_title( '<h1 class="archive-title">', '</h1>'); ?>
-						<?php the_archive_description( 'p class="archive-description">', '</p>'); ?>
+						<?php the_archive_description( '<p class="archive-description">', '</p>'); ?>
 					</header>
 				<?php } ?>
 

@@ -1,74 +1,61 @@
+.comments-header {
+    text-align: center;
+}
+
 .comments-area {
-    .comments-title {
-        margin-top: 0;
-        text-align: center;
-    }
-
     .comment-list {
-        border: 0.063rem solid #cccccc;
         list-style-type: none;
-        margin: 0 0 1.125rem 0;
-        padding: 1.125rem;
+        margin: 0;
+        padding: 0;
 
-        .comment-body {
-            margin-bottom: 1.125rem;
+        .comment {
+            border: 0.063rem solid #cccccc;
+            margin: 1.125rem 0;
+            padding: 1.125rem;
+
+        }
+
+
+        .bypostauthor > {
+            .comment-body {
+                background: #eeeeee;
+                padding: 1.125rem;
+            }
+        }
+
+        .comment-meta {
+            border-bottom: 0.063rem solid #cccccc;
+            padding-bottom: 0.5rem;
 
             .comment-author {
                 .avatar {
-                    border: 4px solid #cccccc;
+                    border: 0.25rem solid #cccccc;
                     border-radius: 50%;
-                    float: left; 
-                    display: block;
-                    margin-right: 10px;
+                    float: left;
                 }
-        
+
                 .fn {
-                    font-size: 1.125rem;
-                    line-height: 1.8rem;
-                    margin: 0;
-                    padding: 0;
-        
+                    font-style: normal;
+                    font-weight: bold;
+                    padding-left: 1rem;
+
                     a {
                         border-bottom: none;
-                        color: #000000;
                     }
+
                 }
 
-                .says {
-                    display: none;
-                }
-            }
-
-            .comment-meta {
-                border-bottom: 0.063rem solid #000000;
-                font-size: 12px;
-                padding-bottom: 0.5rem;
-                line-height: 1em;
-                width: 100%;
-        
-                a {
-                    border-bottom: none;
-                }
-            }
-
-            .comment-content {
-                display: block;
-                line-height: 1.8rem;
-            }
-
-            .reply {
-                position: absolute;
-                top: 0.5rem;
-                right: 0.5rem;
-        
-                a {
-                    display: inline-block;
+                .comment-metadata {
                     font-size: 0.875rem;
-                    text-decoration: none;
-        
-                    &:hover,
-                    &:focus {
-                        color: #373737;
+                    padding-left: 4.5rem;
+                    margin-top: -0.5rem;
+                }
+
+                .reply {
+                    &::before {
+                        content: ".";
+                        font-size: 1.5rem;
+                        margin: 0 0.2rem;
                     }
                 }
             }
@@ -76,187 +63,14 @@
 
         .children {
             list-style-type: none;
-            padding-left: 2.25rem;
-        }
-    }
+            margin-top: 1.125rem 0;
+            padding-left: 2.250rem;
 
-    .comment-respond {
-        border: 0.063rem solid #cccccc;
-        padding: 1.125rem;
 
-        .comment-reply-title {
-            margin: 0;
-            padding: 0;
-        }
-
-        .logged-in-as {
-            font-size: 0.875rem;
-        }
-
-        .comment-form {
-            .comment-form-comment {
-                &:before {
-                    font-family: 'Font Awesome 5 Free';
-                    content: "\f075";
-                    float: left;
-                    margin-left: 0.063em;
-                    margin-right: 0.250em;
-                }
-        
-                textarea {
-                    border: 0.063em solid #cccccc;
-                    box-sizing: border-box;
-                    font-family: 'Merriewather', serif;
-                    font-size: 1rem;
-                    max-height: 250px;
-                    display: block;
-                    padding: 0.5rem;
-                    width: 100%;
-                }
-            }
-        
-            .comment-form-author {
-                float: left;
-                width: 49.20634920634921%;
-        
-                &:before {
-                    font-family: 'Font Awesome 5 Free';
-                    content: "\f007";
-                    float: left;
-                    margin-left: 0.063em;
-                    margin-right: 0.250em;
-                }
-        
-                input[type="text"] {
-                    border: 0.063em solid #cccccc;
-                    box-sizing: border-box;
-                    font-family: 'Merriewather', serif;
-                    font-size: 1em;
-                    display: block;
-                    padding: 0.5em;
-                    width: 100%;
-                }
-            }
-        
-            .comment-form-email {
-                float: right;
-                width: 49.20634920634921%;
-        
-                &:before {
-                    font-family: 'Font Awesome 5 Free';
-                    content: "\f0e0";
-                    float: left;
-                    margin-left: 0.063em;
-                    margin-right: 0.250em;
-                }
-        
-                input[type="email"] {
-                    border: 0.063em solid #cccccc;
-                    box-sizing: border-box;
-                    font-family: 'Merriewather', serif;
-                    font-size: 1em;
-                    display: block;
-                    padding: 0.5em;
-                    width: 100%;
-                }
-            }
-        
-            .comment-form-url {
-                margin-bottom: 1.3em;
-                width: 100%;
-        
-                &:before {
-                    font-family: 'Font Awesome 5 Free';
-                    content: "\f0ac";
-                    float: left;
-                    margin-left: 0.063em;
-                    margin-right: 0.250em;
-                }
-        
-                input[type="url"] {
-                    border: 0.063em solid #cccccc;
-                    box-sizing: border-box;
-                    font-family: 'Merriewather', serif;
-                    font-size: 1em;
-                    display: block;
-                    padding: 0.5em;
-                    width: 100%;
-                }
-            }
-        
-            .form-submit {
-                margin-bottom: 0;
-        
-                .submit {
-                    cursor: pointer;
-                    display: inline-block;
-                    margin: 0;
-                    padding: 0.5rem 1rem;
-                    line-height: 1;
-                    font-family: var(--font-family-secondary);
-                    font-size: 1rem;
-                    border-radius: 3px;
-                    white-space: normal;
-                    word-break: break-all;
-                    transition: all .5s ease-in-out;
-                }
-            }
-
-            .required {
-                color: #FF0000;
-                font-size: 0.625em;
-            }
-        
-            .comment-notes {
-                font-size: 12px;
-            }
-
-            .comment-form-cookies-consent {
-                font-size: 14px;
-
-                input[type="checkbox"] {
-                    margin-right: 0.250em;
-                }
+            .comment {
+                border: none;
+                padding: 0;
             }
         }
     }
-}
-
-.comment-navigation {
-    border-top: 1px solid #999;
-    border-bottom: 1px solid #999;
-}
-
-.comment-navigation i {
-    padding: 10px;
-}
-
-.comment-previous {
-    float: left;
-}
-.comment-next {
-    float: right;
-}
-
-.bypostauthor > .comment-body {
-    background: #eeeeee; 
-    padding: 1.125rem;
-    position: relative;
-}
-
-.comment-awaiting-moderation {
-    background: #84BD68;
-    color: #ffffff;
-    font-size: 0.750em;
-    padding: 0.188em 0.250em;
-}
-
-.form-allowed-tags {
-    font-size: 0.813em;
-    width: 37.5em;
-}
-
-.comment-subscription-form .subscribe-label {
-    display: inline !important;
-    font-size: 0.875em;
 }

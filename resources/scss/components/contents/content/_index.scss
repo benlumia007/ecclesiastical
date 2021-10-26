@@ -52,6 +52,10 @@
                 padding: 0 0.3rem 0 0.4rem;
             }
         }
+
+        .entry-taxonomies {
+            font-size: 0.875rem;
+        }
     }
 
     .page {
@@ -66,4 +70,12 @@
             }
         }
     }
+}
+
+.text-medium {
+    font-size: 1.8rem;
+}
+
+@media screen and ( min-width: 1170px ) {
+    
 }

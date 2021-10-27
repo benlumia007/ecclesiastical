@@ -8,7 +8,7 @@
  * @link https://laravel.com/docs/5.6/mix
  *
  * @package   Ecclesiastical
- * @author    Benjamin Lu <benlumia007k@gmail.com>
+ * @author    Benjamin Lu <benlumia007@gmail.com>
  * @copyright 2016-2021. Benjamin Lu
  * @link      https://luthemes.com/portfolio/ecclesiastical
  * @license   https://www.gnu.org/licenses/gpl-2.0.html
@@ -59,15 +59,6 @@ mix.options( {
 } );
 
 /*
- * Versioning and cache busting. Append a unique hash for production assets. If
- * you only want versioned assets in production, do a conditional check for
- * `mix.inProduction()`.
- *
- * @link https://laravel.com/docs/5.6/mix#versioning-and-cache-busting
- */
-mix.version();
-
-/*
  * Compile JavaScript.
  *
  * @link https://laravel.com/docs/5.6/mix#working-with-scripts
@@ -84,4 +75,6 @@ mix.js( `${devPath}/js/app.js`, 'assets/js' );
  */
 
 // Compile SASS/CSS.
-mix.sass( `${devPath}/scss/screen.scss`, 'assets/css', );
+mix.sass( `${devPath}/scss/screen.scss`, 'assets/css', )
+   .sass( `${devPath}/scss/admin.scss`, 'assets/css' )
+   .sass( `${devPath}/scss/customize.scss`, 'assets/css', );

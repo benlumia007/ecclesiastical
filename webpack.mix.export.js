@@ -6,7 +6,7 @@
  * you need to change something.
  *
  * @package   Ecclesiastical
- * @author    Benjamin Lu <benlumia007k@gmail.com>
+ * @author    Benjamin Lu <benlumia007@gmail.com>
  * @copyright 2016-2021. Benjamin Lu
  * @link      https://luthemes.com/portfolio/ecclesiastical
  * @license   https://www.gnu.org/licenses/gpl-2.0.html

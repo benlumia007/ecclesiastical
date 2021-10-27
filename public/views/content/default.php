@@ -18,6 +18,11 @@
 			<?php Benlumia007\Backdrop\Theme\Entry\display_comments_link(); ?>
 		</div>
 	</header>
+    <?php if ( has_post_thumbnail() ) { ?>
+        <picture class="post-thumbnail">
+            <?php the_post_thumbnail( 'ecclesiastical-medium-thumbnails' ); ?>
+        </picture>
+    <?php } ?>
 	<div class="entry-excerpt">
 		<?php the_excerpt(); ?>
 	</div>

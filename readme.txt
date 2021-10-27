@@ -25,17 +25,10 @@ Customizer
 2. List of different types that you can modify such as
    - Site Title Tagline
       - Hide Display Header Text (this will hide the entire header with header text)
-3. Mobile Menu
-   - The Mobile Menu is slightly different from other themes. I have created a mobile menu that is
-     at the bottom left corner that helps users to navigation easier. The reason why is that 90% of
-     users when using their device, their hands are always at the bottom of the screen which kind of
-     makes the mobile menu more sense to have it at the bottom left corner. The Menu itself when is not
-     set, the Site Title and Tagline will move to the center, if set, the Site Title and Tagline will move
-     to the left while the menu is at the right side.
-4. Header Image
+3. Header Image
    - Add Header Image
    - Remove Header Image (When removing a header image, the default image will display).
-5. Static Front Page
+4. Static Front Page
    - Front Page
    - Blog
 
@@ -54,14 +47,22 @@ Upgrade Notice
 Not Available At the Moment
 
 
-Resources
-================================================================================================
-Screenshot
-Header Image - CCO (Benjamin Lu)
+== Resources ==
+Font Awesome ( Version: 5.0 )
+Created By: Fonticons, Inc
+License: SIL OFL 1.1 and MIT License
+Source: (https://fontawesome.com/)
 
-Font Awesome by Dave Gandy - http://fontawesome.io
-Font Awesome licensed under SIL OFL 1.1 Â· Code licensed under MIT License
-Source: http://fortawesome.github.io/Font-Awesome/
+Merriweather (Google Font)
+Designer: Sorkin Type
+License: Sil Open Font License
+Source: https://fonts.google.com/specimen/Merriweather
 
-Open Sans (Apache License v2.00)
-https://www.fontsquirrel.com/fonts/open-sans
+Fira Sans (Google Font)
+Designer: Carrois Apostrophe
+License: Sil Open Font License
+Source: https://fonts.google.com/specimen/Fira+Sans
+
+Benjamin Lu (https://github.com/benlumia007/)
+Backdrop (https://github.com/benlumia007/backdrop)
+License: GPLv2 or Higher

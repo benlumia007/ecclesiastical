@@ -115,3 +115,26 @@ add_action( 'after_setup_theme', function() {
 		)
 	);
 } );
+
+add_action( 'backdrop/templates/register', function( $templates ) {
+	$templates->add(
+		'template-custom-sidebar.php', [
+			'label' => esc_html__( 'Custom Sidebar', 'ecclesiastical' ),
+			'post_types' => [ 'page' ]
+		]
+	);
+
+	$templates->add(
+		'template-left-sidebar.php', [
+			'label' => esc_html__( 'Left Sidebar', 'ecclesiastical' ),
+			'post_types' => [ 'page' ]
+		]
+	);
+
+	$templates->add(
+		'template-right-sidebar.php', [
+			'label' => esc_html__( 'Right Sidebar', 'ecclesiastical' ),
+			'post_types' => [ 'page' ]
+		]
+	);
+} );

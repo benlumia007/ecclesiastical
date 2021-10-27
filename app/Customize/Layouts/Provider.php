@@ -2,11 +2,11 @@
 /**
  * Layouts
  *
- * @package   Silver Quantum
+ * @package   Ecclesiastical
  * @author    Benjamin Lu ( benlumia007@gmail.com )
- * @copyright Copyright (C) 2014-2021. Benjamin Lu
+ * @copyright Copyright (C) 2016-2021. Benjamin Lu
  * @license   https://www.gnu.org/licenses/gpl-2.0.html
- * @link      https://luthemes.com/portfolio/silver-quantum
+ * @link      https://luthemes.com/portfolio/ecclesiastical
  */
 
 /**

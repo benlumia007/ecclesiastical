@@ -34,7 +34,7 @@
 				wp_list_comments( [
 					'style'       => 'ul',
 					'avatar_size' => 50,
-					'callback' => 'Ecclesiastical\Template\Comments::test'
+					'callback' => 'Benlumia007\Backdrop\Theme\Comments\Component::display_comments_list'
 				] );
 			?>
 		</ul>

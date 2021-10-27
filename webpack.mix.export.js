@@ -63,6 +63,7 @@ folders.forEach( folder => {
 mix.then( () => {
 
 	let files = [
+		'mix-manifest.json',
 		`${exportPath}/vendor/bin`,
 	 	`${exportPath}/vendor/composer/installers`
 	];

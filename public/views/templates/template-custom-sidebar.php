@@ -1,6 +1,6 @@
 <?php
 /**
- * Silver Quantum ( page.php )
+ * Template - custom sidebar
  *
  * @package   Ecclesiastical
  * @author    Benjamin Lu ( benlumia007@gmail.com )

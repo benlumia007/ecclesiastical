@@ -873,6 +873,21 @@ h6 {
   text-align: center;
 }
 
+.secondary-navigation {
+  clear: both;
+  content: "";
+  display: table;
+  font-size: 0.975rem;
+  margin: 0 auto;
+}
+.secondary-navigation ul {
+  list-style-type: none;
+}
+.secondary-navigation ul li {
+  float: left;
+  padding: 0 0.6rem 1rem 0;
+}
+
 .site-social {
   padding: 0.5rem;
 }
@@ -1048,6 +1063,9 @@ a {
   color: #000080;
   border-bottom: 0.125rem solid #000080;
   text-decoration: none;
+}
+a:hover, a:focus {
+  color: #ff0000;
 }
 
 .grid {

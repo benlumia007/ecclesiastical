@@ -10,6 +10,7 @@
  */
 ?>
 	<footer id="colophon" class="site-footer">
+		<?php Benlumia007\Backdrop\Theme\Menu\display( 'menu', [ 'secondary' ] ); ?>
 		<div class="site-info">
 			<?php
 			printf(

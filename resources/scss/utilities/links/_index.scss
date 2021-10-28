@@ -12,6 +12,11 @@ a {
     color: #000080;
     border-bottom: 0.125rem solid #000080;
     text-decoration: none;
+
+    &:hover,
+    &:focus {
+        color: #ff0000;
+    }
 }
 
 .grid {

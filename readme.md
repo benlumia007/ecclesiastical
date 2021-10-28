@@ -6,8 +6,8 @@ The main objective of this starter theme is to help myself and other developer t
 ## Requirements
 There are few things that we will need to begin.
 
-- WordPress 5.0 or higher
-- PHP 5.6 or higher ( PHP 7.0 or higher is recommended )
+- WordPress 4.9 or higher
+- PHP 5.6 or higher ( PHP 7.4 is recommended )
 - Git
 - Composer
 

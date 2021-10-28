@@ -29,6 +29,7 @@
 			);
 			?>
 		</div>
+		<?php Benlumia007\Backdrop\Theme\Menu\display( 'menu', [ 'social' ] ); ?>
 	</footer>
 </div>
 <?php wp_footer(); ?>

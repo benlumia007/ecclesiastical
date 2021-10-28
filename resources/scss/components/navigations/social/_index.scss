@@ -6,3 +6,60 @@
 // @license   GNU General Public License v2 or later ( https://www.gnu.org/licenses/gpl-2.0.html )
 // @author    Benjamin Lu ( https://getbenonit.com )
 //
+
+.site-social {
+    padding: 0.5rem;
+
+    .menu-social {
+        ul {
+            text-align: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                position: relative;
+                display:  inline-block;
+
+                a {
+                    border-bottom: none;
+
+                    &:before {
+                        color: #000000;
+                        content: '\f082';
+                        display: inline-block;
+                        font-family: 'Font Awesome 5 Brands';
+                        font-size: 1.625em;
+                        vertical-align: top;
+                        padding: 0 0.3rem;
+                        -webkit-font-smoothing: antialiased;
+                    }
+                }
+
+                a[href*="dribbble.com"]::before { content: '\f17d'; }
+                a[href*="facebook.com"]::before { content: '\f082'; }
+                a[href*="flickr.com"]::before { content: '\f16e'; }
+                a[href*="foursquare.com"]::before { content: '\f180'; }
+                a[href*="github.com"]::before { content: '\f09b'; }
+                a[href*="plus.google.com"]::before { content: '\f0d5'; }
+                a[href*="instagram.com"]::before { content: '\f16d'; }
+                a[href*="jsfiddle.com"]::before { content: '\f1cc'; }
+                a[href*="linkedin.com"]::before { content: '\f0e1'; }
+                a[href*="pinterest.com"]::before { content: '\f0d2'; }
+                a[href*="reddit.com"]::before { content: '\f1a1'; }
+                a[href*="soundcloud.com"]::before { content: '\f1be'; }
+                a[href*="stackoverflow.com"]::before { content: '\f16c'; }
+                a[href*="tumblr.com"]::before { content: '\f173'; }
+                a[href*="twitter.com"]::before { content: '\f099'; }
+                a[href*="vimeo.com"]::before { content: '\f194'; }
+                a[href*="vine.co"]::before { content: '\f1ca'; }
+                a[href*="yelp.com"]::before { content: '\f1e9'; }
+                a[href*="youtube.com"]::before { content: '\f167'; }
+                a[href*="wordpress.org"]::before { content: '\f19a'; }
+
+            }
+        }
+    }
+    
+}
+

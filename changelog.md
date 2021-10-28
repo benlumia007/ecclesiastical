@@ -1,5 +1,7 @@
 # Change Log
 
+## 1.0.3 - TBD
+
 ## 1.0.2 - October 28, 2021
 - Fixed Sidebar display in 404.php
 - Add search.php for results

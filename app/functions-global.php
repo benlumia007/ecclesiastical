@@ -1,6 +1,6 @@
 <?php
 /**
- * Theme Compatibility
+ * Theme - Global Functions
  *
  * @package   Ecclesiastical
  * @author    Benjamin Lu ( benlumia007@gmail.com )
@@ -10,7 +10,7 @@
  */
 
 /**
- * Add actions to fail at certain point in the load process.
+ * Backward compatibility for wp_body_open
  */
 if ( ! function_exists('wp_body_open' ) ) {
 	function wp_body_open() {

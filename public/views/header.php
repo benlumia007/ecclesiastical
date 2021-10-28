@@ -1,6 +1,6 @@
 <?php
 /**
- * Default header
+ * Default header template
  *
  * @package   Ecclesiastical
  * @author    Benjamin Lu ( benlumia007@gmail.com )

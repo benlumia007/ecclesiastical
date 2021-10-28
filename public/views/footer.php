@@ -1,6 +1,6 @@
 <?php
 /**
- * Default footer
+ * Default footer template
  *
  * @package   Ecclesiastical
  * @author    Benjamin Lu ( benlumia007@gmail.com )

@@ -1,6 +1,6 @@
 <?php
 /**
- * Default index
+ * Default index template
  *
  * @package   Ecclesiastical
  * @author    Benjamin Lu ( benlumia007@gmail.com )

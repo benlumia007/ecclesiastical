@@ -16,7 +16,7 @@
 			<main id="main" class="content-area">
 				<?php $engine->display( 'content/404' ); ?>
 			</main>
-			<?php Benlumia007\Backdrop\View\display( 'sidebar', [ 'primary' ] ); ?>
+			<?php Benlumia007\Backdrop\Theme\Sidebar\display( 'sidebar', [ 'primary' ] ); ?>
 		</div>
 	</section>
 <?php $engine->display( 'footer' ); ?>
